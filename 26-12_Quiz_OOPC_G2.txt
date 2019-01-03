@@ -1,0 +1,113 @@
+1) What is currect syntax of for loop?
+(A) for(initialization;condition; increment/decrement)
+(B) for(increment/decrement; initialization; condition)
+(C) for(initialization, condition, increment/decrement
+(D) None of These
+
+2) Can we typecast void into int?
+
+(A) Yes
+(B) No
+(C) Undefined
+(D) Depends on Compile
+
+3) What should be the output of below prpgram?
+
+int main()
+{
+int a=10; cout<<a++;
+return 0;
+}
+
+(A) 11
+(B) 10
+(C) Error
+(D) 0
+
+
+4) Which operator has more precedance  in below list?
+
+(A) +
+(B) -
+(C) ++
+(D) *
+
+
+5) What following operator is called 
+?:
+
+(A) Scope Resolution Operator
+(B) Conditional Operator
+(C) Ternary Operator
+(D) if else o/p
+
+
+6) What is the output of below program?
+
+int main()
+{
+ if(0)
+ {
+    cout<<"Hi";
+ }
+ else
+ {
+    cout<<"Bye";
+ }
+return 0;
+}
+
+(A) Hi
+(B) Bye
+(C) HiBye
+(D) Compilation Error
+
+
+7) How many times "vvp" is printed?
+
+int main()
+{
+    int i=0;
+    lbl:
+    cout<<"vvp";
+    i++;
+    if(i<5)
+    {
+	goto lbl;
+    }
+return 0;
+
+}
+
+
+8) What is output of below program?
+int main()
+{
+  const int a=10;
+  a++;
+  cout<<a;
+return 0;
+
+}
+
+(A) 10
+(B) 11
+(C) Compilation Error
+(D) Linking Error
+
+
+9) What is the full form of oop
+
+(A) Object oriented programming
+(B) Oriented object programming
+(C) Office oriented programming
+(D) office objective programming
+
+
+10. What should be the output?
+
+int main() {
+    int new = -10;
+    cout<<"new is: "<<new;
+    return 0;
+}
